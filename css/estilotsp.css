@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(97, 96, 96);
+}
+.descripcion{
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(53, 53, 53);
+}
+.card__descripcion{
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 90px;
+}
+.card__perfil{
+    width: 310px;
+    padding: 20px;
+    
+    margin: 15px auto;
+    align-content: center;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+    border: solid rgba(3, 133, 255, 0) 2px;
+    border-radius: 30px;
+}
+.card__perfil:hover{
+    border: solid rgb(3, 133, 255) 2px;
+}
+.card__perfil:hover img{
+    transform: rotate(0);
+}
+.imgcard{
+    width: 90px;
+    border-radius: 50%;
+    border-style: dashed; border-width: 1px;
+    border-color: red;
+    /* box-shadow: 2px 2px 5px rgb(216, 216, 216);  */
+    transform: rotate(-30deg); 
+    transition: all .3s; 
+}
+.card__nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background: rgb(223, 221, 221);
+    margin: 20px 5px;
+}
+.card__button{
+    text-align: center;
+}
+.enlace{
+    background: #f80f0f;
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+}
+
